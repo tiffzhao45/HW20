@@ -1,0 +1,36 @@
+$theme-colors: ("secondary":  $secondary,);
+body{
+    background-color: grey;
+    width:100%;
+    height:90%;
+  }
+  .navigation-tl{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    width: 100%;
+  }
+  .navlinks-tl{
+    list-style-type:none;
+    margin:0 ;
+    padding: 0;
+    overflow:hidden;
+    background-color:#333 ;
+    }
+    .card-img{
+        width: 50%;
+        height: 50%;
+    }
+    .li-tl{
+      float: center;
+    }
+    .li-a {
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    .li-a:hover {
+      background-color: #111;
+    }
